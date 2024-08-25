@@ -12,6 +12,7 @@
           <include name="CloseBrowser"/>
           <include name="finalLoginTest"/>
           <include name="ClickMyOutletLink"/>
+          <include name="FillFOrm"/>
           <include name="SignInPageTitle"/>
         </methods>
       </class> <!-- Test_Scenarios.TestMethodsGoogleSearch -->
