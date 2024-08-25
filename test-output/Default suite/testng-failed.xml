@@ -6,9 +6,9 @@
       <class name="Test_Scenarios.TestMethodsGoogleSearch">
         <methods>
           <include name="LaunchBrowser"/>
-          <include name="searchAndClickDrawifyLink"/>
           <include name="ClickAddButton"/>
           <include name="verifyLoginPageTitle"/>
+          <include name="searchAndClickHNBLink"/>
           <include name="CloseBrowser"/>
           <include name="finalLoginTest"/>
           <include name="ClickMyOutletLink"/>

@@ -27,7 +27,7 @@ public class TestMethodsGoogleSearch extends BaseTest {
     LoginPage loginPage;
 
     @Test(priority = 1)
-    public void searchAndClickDrawifyLink() throws InterruptedException {
+    public void searchAndClickHNBLink() throws InterruptedException {
         googleSearchPage = new GoogleSearchPage(getDriver());
         getDriver().get("https://solo-admin-sit.hnb.lk/");
 
@@ -109,9 +109,14 @@ public class TestMethodsGoogleSearch extends BaseTest {
     @Test(priority = 7)
     public void FillFOrm() throws InterruptedException {
     	AddOutletPage autpage = new AddOutletPage(getDriver());
-    	autpage.FillTheForm();
+    	autpage.fillTheForm();
     }
     
+//    @Test
+//    public void MerchatTypeSelect () throws InterruptedException {
+//    	AddOutletPage mertype = new AddOutletPage(getDriver());
+//    	mertype.selectMerchantType();
+//    }
     }
 
    
