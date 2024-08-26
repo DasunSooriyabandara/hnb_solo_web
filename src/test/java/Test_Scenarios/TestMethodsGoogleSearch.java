@@ -17,6 +17,7 @@ import java.util.function.Function;
 import Objects.AddOutletPage;
 import Objects.BaseTest;
 import Objects.ClickMyOutletLink;
+import Objects.FilterOutlet;
 import Objects.GoogleSearchPage;
 import Objects.LoginPage;
 import Objects.MyOutletsPage;
@@ -26,7 +27,7 @@ public class TestMethodsGoogleSearch extends BaseTest {
     GoogleSearchPage googleSearchPage;
     LoginPage loginPage;
 
-    @Test(priority = 1)
+    @Test(priority = 1, testName = "Search URL and Open Web")
     public void searchAndClickHNBLink() throws InterruptedException {
         googleSearchPage = new GoogleSearchPage(getDriver());
         getDriver().get("https://solo-admin-sit.hnb.lk/");
@@ -52,7 +53,7 @@ public class TestMethodsGoogleSearch extends BaseTest {
         AssertJUnit.assertEquals(actualTitle, expectedTitle, "Expected and Actual Titles Do Not Match");
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3, testName = "Login Page Title")
     public void verifyLoginPageTitle() {
         loginPage = new LoginPage(getDriver());
 
@@ -64,7 +65,7 @@ public class TestMethodsGoogleSearch extends BaseTest {
         AssertJUnit.assertEquals(actualTitle, expectedTitle, "Page title does not match.");
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4, testName = "Login to the system")
     public void finalLoginTest() {
         loginPage = new LoginPage(getDriver());
         loginPage.enterUserName("Admin");
@@ -83,7 +84,7 @@ public class TestMethodsGoogleSearch extends BaseTest {
 
     
 
-    @Test(priority = 5)
+    @Test(priority = 5, testName = "Click My Outlet Link")
     public void ClickMyOutletLink() {
         ClickMyOutletLink autlink = new ClickMyOutletLink(getDriver());
         autlink.navigateToMyOutletLink();
@@ -95,7 +96,16 @@ public class TestMethodsGoogleSearch extends BaseTest {
         
     }
     
-    @Test(priority = 6)
+    @Test(priority = 6, testName = "Filter existing Outlet")
+    public void filteringOutlet() throws InterruptedException {
+    	FilterOutlet filter = new FilterOutlet(getDriver());
+    	filter.clickFilterButton();
+    }
+    
+    
+    
+    
+    @Test(priority = 7, testName = "Clikc Add Button")
     public void ClickAddButton() {
     	MyOutletsPage outpage = new MyOutletsPage(getDriver());
     	outpage.ClickAddButton();
@@ -106,17 +116,13 @@ public class TestMethodsGoogleSearch extends BaseTest {
         System.out.println("Add button page title test passed successfully.");
         
     }
-    @Test(priority = 7)
+    @Test(priority = 8, testName = "Filling the form to add New Outlet")
     public void FillFOrm() throws InterruptedException {
     	AddOutletPage autpage = new AddOutletPage(getDriver());
     	autpage.fillTheForm();
     }
     
-//    @Test
-//    public void MerchatTypeSelect () throws InterruptedException {
-//    	AddOutletPage mertype = new AddOutletPage(getDriver());
-//    	mertype.selectMerchantType();
-//    }
+
     }
 
    
