@@ -6,12 +6,15 @@
       <class name="Test_Scenarios.TestMethodsGoogleSearch">
         <methods>
           <include name="LaunchBrowser"/>
+          <include name="ClickAddButton"/>
+          <include name="filteringOutlet"/>
           <include name="verifyLoginPageTitle"/>
           <include name="searchAndClickHNBLink"/>
           <include name="CloseBrowser"/>
           <include name="finalLoginTest"/>
           <include name="ClickMyOutletLink"/>
           <include name="SignInPageTitle"/>
+          <include name="FillFOrm"/>
         </methods>
       </class> <!-- Test_Scenarios.TestMethodsGoogleSearch -->
     </classes>

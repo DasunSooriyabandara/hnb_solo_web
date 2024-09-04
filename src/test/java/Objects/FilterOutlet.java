@@ -28,6 +28,7 @@ public class FilterOutlet {
     private By status = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div");
     private By name = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[3]/div[1]/div/p");
     private By merchant = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[5]/div[1]/div/p");
+    private By Okbtn = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[4]/button");
 
     // Method to click the filter button, apply filter, and verify status, name, and merchant
     public void clickFilterButton() {
@@ -58,6 +59,11 @@ public class FilterOutlet {
         WebElement clickFilterTable = wait.until(ExpectedConditions.elementToBeClickable(filterResult));
         clickFilterTable.click();
         System.out.println("Successfully opened filtered item details.");
+        
+     // Click on the OK Button result to open the item details
+        WebElement clickOKButton = wait.until(ExpectedConditions.elementToBeClickable(Okbtn));
+        clickOKButton.click();
+        System.out.println("Successfully Click Ok Button after filter items.");
 
         // Get the status text and print it
         WebElement getStatus = wait.until(ExpectedConditions.visibilityOfElementLocated(status));
