@@ -37,13 +37,13 @@ public class GoogleSearchPage {
     }
 
     // Method to click on Drawify link from search results
-    public void clickDrawifyLink() {
-        try {
-            // Wait for the Drawify link to be clickable and click it
-            WebElement resultLinkElement = wait.until(ExpectedConditions.elementToBeClickable(drawifySearchResultLink));
-            resultLinkElement.click();
-        } catch (Exception e) {
-            System.out.println("Exception Caught while clicking Drawify link: " + e.getMessage());
-        }
-    }
+//    public void clickDrawifyLink() {
+//        try {
+//            // Wait for the Drawify link to be clickable and click it
+//            WebElement resultLinkElement = wait.until(ExpectedConditions.elementToBeClickable(drawifySearchResultLink));
+//            resultLinkElement.click();
+//        } catch (Exception e) {
+//            System.out.println("Exception Caught while clicking Drawify link: " + e.getMessage());
+//        }
+//    }
 }

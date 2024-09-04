@@ -27,7 +27,7 @@ public class FilterOutlet {
     private By filterResult = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[3]/table/tbody/tr");
     private By status = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div");
     private By name = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[3]/div[1]/div/p");
-    private By merchant = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[5]/div[1]/div/p");
+    private By merchant = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[3]/table/tbody/tr/td[4]/div/text()");
     private By Okbtn = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[4]/button");
 
     // Method to click the filter button, apply filter, and verify status, name, and merchant

@@ -23,14 +23,14 @@ public class AddOutletPage {
     private By addButton = By.xpath("//span[normalize-space()='Add']");
     private By enterName = By.xpath("//*[@id=\"outlet-outlet-name-field\"]");
     private By merchantType = By.xpath("//*[@id=\"form-outlet-merchant-type-field\"]/div/div[2]/div");
-    private By merchantTypeOpt = By.id("react-select-8-option-0");
+    private By merchantTypeOpt = By.id("react-select-13-option-1");
     private By merchantName = By.xpath("//*[@id=\"outlet-merchant-id-field\"]/div/div[1]");
-    private By merchantNameOpt = By.id("react-select-15-option-4");
+    private By merchantNameOpt = By.id("react-select-25-option-0");
     private By uploadImageBtn = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/form/div[1]/div[17]/div/div/div/div[1]/label/span");
     private By midField = By.id("outlet-merchant-transaction-type-id-field");
     private By saveButton = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/form/div[3]/button[2]");
-    private By successMessageLocator = By.id("success-message"); 
-    private By errorMessageLocator = By.id("client-snackbar"); // Replace with the actual locator for the error message
+    private By successMessageLocator = By.xpath("//*[@id=\"client-snackbar\"]"); //xpath= //*[@id="client-snackbar"]
+    private By errorMessageLocator = By.id("client-snackbar"); // xpath = //*[@id="client-snackbar"]
     private By searchBox = By.xpath("//*[@id=\"user-first-name-field\"]");
     private By verifySearchItem = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[3]/table/tbody/tr/td[1]/div");
 
