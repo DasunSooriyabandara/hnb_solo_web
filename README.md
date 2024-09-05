@@ -1,15 +1,16 @@
-This is an attempt to automate the HNB Solo application’s happy path as part of my self-study in automation testing. 
+<p>This is an attempt to automate the HNB Solo application’s happy path as part of my self-study in automation testing. 
 I’ve included all the necessary details related to the testing process, along with an Allure report for reference. 
 If there are areas where I can improve, 
-I would greatly appreciate any feedback or suggestions to enhance my knowledge and skills.
+I would greatly appreciate any feedback or suggestions to enhance my knowledge and skills.</p><br><hr>
 
 
-**Task: UI Test Automation Suite Development using Selenium and Jav**a
-System Under Test (SUT)
-URL: https://solo-admin-sit.hnb.lk/
-Credentials:
-Username: Please contact me to get the Username
-Password:Please contact me to get the Password
+<h4>Task: UI Test Automation Suite Development using Selenium and Jav</h4>
+<p>System Under Test (SUT)</p><br>
+<p>URL: https://solo-admin-sit.hnb.lk/</p>
+
+<p>Credentials:<br>
+Username: Please get in touch with me to get the Username
+Password: Don't hesitate to get in touch with me to get the Password</p>
 
 **Objective**
 Develop a UI test automation suite using Selenium and Java, following the Page Object Model (POM) design pattern and utilizing the Page Factory within your project. The test suite should cover the following scenarios:
