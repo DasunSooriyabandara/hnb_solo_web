@@ -21,13 +21,13 @@ public class FilterOutlet {
     // Locators
     private By filterBtn = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div/button"); 
     private By merchantName = By.xpath("//*[@id=\"outlet-filter-merchantId-field\"]/div/div[1]");
-    private By merchantNameSelect = By.cssSelector("#react-select-2-option-12");
+    private By merchantNameSelect = By.id("react-select-27-option-11");
     private By mid = By.id("outlet-filter-mid-field");
     private By setFilterButton = By.xpath("//button[@type='submit']");
     private By filterResult = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[3]/table/tbody/tr");
     private By status = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div");
     private By name = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[3]/div[1]/div/p");
-    private By merchant = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[2]/div[3]/table/tbody/tr/td[4]/div/text()");
+    private By merchant = By.xpath("//*[@id='app']/div[2]/div/div/div[2]/div/div[2]/div[3]/table/tbody/tr/td[4]/div");
     private By Okbtn = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/div[4]/button");
 
     // Method to click the filter button, apply filter, and verify status, name, and merchant

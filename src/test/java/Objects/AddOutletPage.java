@@ -23,9 +23,10 @@ public class AddOutletPage {
     private By addButton = By.xpath("//span[normalize-space()='Add']");
     private By enterName = By.xpath("//*[@id=\"outlet-outlet-name-field\"]");
     private By merchantType = By.xpath("//*[@id=\"form-outlet-merchant-type-field\"]/div/div[2]/div");
-    private By merchantTypeOpt = By.id("react-select-13-option-1");
+    private By merchantTypeOpt = By.id("react-select-8-option-0");
     private By merchantName = By.xpath("//*[@id=\"outlet-merchant-id-field\"]/div/div[1]");
-    private By merchantNameOpt = By.id("react-select-25-option-0");
+    private By merchantNameOpt = By.id("react-select-20-option-16");
+//    private By merchantNameOpt = By.xpath("//*[@id=\"react-select-20-option-0\"]");
     private By uploadImageBtn = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/form/div[1]/div[17]/div/div/div/div[1]/label/span");
     private By midField = By.id("outlet-merchant-transaction-type-id-field");
     private By saveButton = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/form/div[3]/button[2]");

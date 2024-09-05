@@ -9,7 +9,7 @@
           <include name="filteringOutlet"/>
           <include name="SearchCreateOutlet"/>
           <include name="CloseBrowser"/>
-          <include name="FillFOrm"/>
+          <include name="FillForm"/>
         </methods>
       </class> <!-- Test_Scenarios.TestMethodsGoogleSearch -->
     </classes>
