@@ -12,7 +12,7 @@ import java.time.Duration;
 public class AddOutletPage {
 
     private WebDriver driver;
-    private static final String OUTLET_NAME = "Automation Test"; // Use a constant for the outlet name
+    private static final String OUTLET_NAME = "Automation Test Outlet"; // Use a constant for the outlet name
 
     // Constructor to initialize WebDriver
     public AddOutletPage(WebDriver driver) {
@@ -25,7 +25,7 @@ public class AddOutletPage {
     private By merchantType = By.xpath("//*[@id=\"form-outlet-merchant-type-field\"]/div/div[2]/div");
     private By merchantTypeOpt = By.id("react-select-8-option-0");
     private By merchantName = By.xpath("//*[@id=\"outlet-merchant-id-field\"]/div/div[1]");
-    private By merchantNameOpt = By.id("react-select-20-option-16");
+    private By merchantNameOpt = By.id("react-select-15-option-0");
 //    private By merchantNameOpt = By.xpath("//*[@id=\"react-select-20-option-0\"]");
     private By uploadImageBtn = By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[2]/div/form/div[1]/div[17]/div/div/div/div[1]/label/span");
     private By midField = By.id("outlet-merchant-transaction-type-id-field");

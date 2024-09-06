@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-05T11:35:05 IST" name="Default suite" finished-at="2024-09-05T11:36:20 IST" duration-ms="74941">
+  <suite started-at="2024-09-05T16:31:56 IST" name="Default suite" finished-at="2024-09-05T16:33:02 IST" duration-ms="65886">
     <groups>
     </groups>
-    <test started-at="2024-09-05T11:35:05 IST" name="Default test" finished-at="2024-09-05T11:36:20 IST" duration-ms="74941">
+    <test started-at="2024-09-05T16:31:56 IST" name="Default test" finished-at="2024-09-05T16:33:02 IST" duration-ms="65886">
       <class name="Test_Scenarios.TestMethodsGoogleSearch">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:05 IST" name="LaunchBrowser" finished-at="2024-09-05T11:35:10 IST" duration-ms="5041" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:31:56 IST" name="LaunchBrowser" finished-at="2024-09-05T16:31:59 IST" duration-ms="2970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="searchAndClickHNBLink()[pri:1, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:10 IST" name="searchAndClickHNBLink" finished-at="2024-09-05T11:35:24 IST" duration-ms="13550" status="PASS">
+        <test-method signature="searchAndClickHNBLink()[pri:1, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:31:59 IST" name="searchAndClickHNBLink" finished-at="2024-09-05T16:32:13 IST" duration-ms="13735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAndClickHNBLink -->
-        <test-method signature="SignInPageTitle()[pri:2, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:24 IST" name="SignInPageTitle" finished-at="2024-09-05T11:35:24 IST" duration-ms="11" status="PASS">
+        <test-method signature="SignInPageTitle()[pri:2, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:32:13 IST" name="SignInPageTitle" finished-at="2024-09-05T16:32:13 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignInPageTitle -->
-        <test-method signature="verifyLoginPageTitle()[pri:3, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:24 IST" name="verifyLoginPageTitle" finished-at="2024-09-05T11:35:24 IST" duration-ms="12" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:3, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:32:13 IST" name="verifyLoginPageTitle" finished-at="2024-09-05T16:32:13 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method signature="finalLoginTest()[pri:4, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:24 IST" name="finalLoginTest" finished-at="2024-09-05T11:35:25 IST" duration-ms="357" status="PASS">
+        <test-method signature="finalLoginTest()[pri:4, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:32:13 IST" name="finalLoginTest" finished-at="2024-09-05T16:32:13 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalLoginTest -->
-        <test-method signature="ClickMyOutletLink()[pri:5, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:25 IST" name="ClickMyOutletLink" finished-at="2024-09-05T11:35:34 IST" duration-ms="8934" status="PASS">
+        <test-method signature="ClickMyOutletLink()[pri:5, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:32:13 IST" name="ClickMyOutletLink" finished-at="2024-09-05T16:32:23 IST" duration-ms="9577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickMyOutletLink -->
-        <test-method signature="filteringOutlet()[pri:6, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:34 IST" name="filteringOutlet" finished-at="2024-09-05T11:35:50 IST" duration-ms="16478" status="FAIL">
+        <test-method signature="filteringOutlet()[pri:6, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:32:23 IST" name="filteringOutlet" finished-at="2024-09-05T16:32:34 IST" duration-ms="11318" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: react-select-27-option-11 (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3370/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: df41c7e824782077c4cd9720f879c3a3]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9852/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3aa538eece82880663229ee447be0b3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: react-select-27-option-11 (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3370/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: df41c7e824782077c4cd9720f879c3a3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9852/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3aa538eece82880663229ee447be0b3
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at Objects.FilterOutlet.clickFilterButton(FilterOutlet.java:44)
@@ -84,31 +84,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filteringOutlet -->
-        <test-method signature="ClickAddButton()[pri:7, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:50 IST" name="ClickAddButton" finished-at="2024-09-05T11:35:50 IST" duration-ms="99" status="PASS">
+        <test-method signature="ClickAddButton()[pri:7, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:32:34 IST" name="ClickAddButton" finished-at="2024-09-05T16:32:35 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickAddButton -->
-        <test-method signature="FillForm()[pri:8, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:35:50 IST" name="FillForm" finished-at="2024-09-05T11:36:09 IST" duration-ms="18808" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="FillForm()[pri:8, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:32:35 IST" name="FillForm" finished-at="2024-09-05T16:32:51 IST" duration-ms="16912" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: react-select-13-option-0 (tried for 15 second(s) with 500 milliseconds interval)
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#successMessage"}
+  (Session info: chrome=128.0.6613.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3370/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: df41c7e824782077c4cd9720f879c3a3]]>
+Command: [c3aa538eece82880663229ee447be0b3, findElement {using=id, value=successMessage}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9852/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3aa538eece82880663229ee447be0b3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: react-select-13-option-0 (tried for 15 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#successMessage"}
+  (Session info: chrome=128.0.6613.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3370/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: df41c7e824782077c4cd9720f879c3a3
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Objects.AddOutletPage.fillTheForm(AddOutletPage.java:57)
-at Test_Scenarios.TestMethodsGoogleSearch.FillForm(TestMethodsGoogleSearch.java:148)
+Command: [c3aa538eece82880663229ee447be0b3, findElement {using=id, value=successMessage}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9852/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3aa538eece82880663229ee447be0b3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at Test_Scenarios.TestMethodsGoogleSearch.FillForm(TestMethodsGoogleSearch.java:151)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -137,27 +154,27 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillForm -->
-        <test-method signature="SearchCreateOutlet()[pri:9, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:36:09 IST" name="SearchCreateOutlet" finished-at="2024-09-05T11:36:20 IST" duration-ms="10515" status="FAIL">
+        <test-method signature="SearchCreateOutlet()[pri:9, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:32:51 IST" name="SearchCreateOutlet" finished-at="2024-09-05T16:33:02 IST" duration-ms="10313" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="user-first-name-field"] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3370/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: df41c7e824782077c4cd9720f879c3a3]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9852/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3aa538eece82880663229ee447be0b3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="user-first-name-field"] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3370/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: df41c7e824782077c4cd9720f879c3a3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9852/devtool..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3aa538eece82880663229ee447be0b3
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at Objects.AddOutletPage.searchOutlet(AddOutletPage.java:129)
@@ -194,7 +211,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchCreateOutlet -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T11:36:20 IST" name="CloseBrowser" finished-at="2024-09-05T11:36:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Scenarios.TestMethodsGoogleSearch@7d9f158f]" started-at="2024-09-05T16:33:02 IST" name="CloseBrowser" finished-at="2024-09-05T16:33:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
