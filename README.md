@@ -40,5 +40,5 @@ Password: Don't hesitate to get in touch with me to get the Password
     <li><strong>Verify Outlet Information:</strong><br> On the detailed information page, verify the outlet’s status, name, and merchant information to ensure accuracy.</li>
 </ul>
 
-<h4>Notes:</h4>
-<p>Utilize the Page Object Model (POM) and Page Factory design patterns throughout the implementation. Ensure that each scenario is automated as part of the test suite.</p>
+<h4>Report:</h4>
+<p>Allure report URL - http://192.168.43.34:6833/index.html#</p>
