@@ -46,7 +46,7 @@ public class BaseTest {
     @AfterClass
     public void CloseBrowser() {
         if (driver.get() != null) {
-//            driver.get().quit();  // Ensures the driver is properly closed
+            driver.get().quit();  // Ensures the driver is properly closed
             driver.remove();  // Removes the ThreadLocal value
             System.out.println("Successfully closed the browser");
         }

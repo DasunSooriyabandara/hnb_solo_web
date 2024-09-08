@@ -6,10 +6,8 @@
       <class name="Test_Scenarios.TestMethodsGoogleSearch">
         <methods>
           <include name="LaunchBrowser"/>
-          <include name="filteringOutlet"/>
-          <include name="SearchCreateOutlet"/>
           <include name="CloseBrowser"/>
-          <include name="FillForm"/>
+          <include name="successmsg"/>
         </methods>
       </class> <!-- Test_Scenarios.TestMethodsGoogleSearch -->
     </classes>
