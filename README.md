@@ -42,3 +42,6 @@ Password: Don't hesitate to get in touch with me to get the Password
 
 <h4>Report:</h4>
 <p>Allure report URL - http://192.168.43.34:6833/index.html#</p>
+
+<h4>Video:</h4>
+<p>LINK - https://drive.google.com/file/d/1kJCwC940Lpj15ZaST2_PtjkEWGsiik89/view?usp=drive_link </p>
